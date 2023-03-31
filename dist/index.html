@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="dark:bg-black">
     <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l">
         <nav id="site-menu"
             class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white shadow sm:shadow-none border-t-4 border-blue-700">
@@ -42,6 +42,13 @@
             <h1 class="text-xl font-bold text-red-900">Lorem ipsum</h1>
 
             <h3 class="py-8">Hi</h3>
+
+            <div class="bg-black w-20 mx-auto mt-10 cursor-pointer rounded-3xl toggler dark:bg-slate-100">
+                <!-- <div class="bg-white w-10 h-10 scale-75 rounded-3xl transition-transform dark:bg-black"></div> -->
+                <i class="fa-solid fa-sun bg-slate-100" style="color: aqua;"></i>
+                <i class="fa-solid fa-moon dark:bg-black"></i>
+            </div>
+
         </div>
         <div class="flex flex-col w-2/3 mx-auto mb-24 tracking-wide">
             <h2 class="my-3">Lorem ipsum</h2>
