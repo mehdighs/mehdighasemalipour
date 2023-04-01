@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="./output.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 
-<body class="dark:bg-black">
+<body class="">
     <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l">
         <nav id="site-menu"
             class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white shadow sm:shadow-none border-t-4 border-blue-700">
@@ -38,18 +39,44 @@
     </header>
 
     <main class="content">
-        <div class="min-h-screen text-center py-24">
-            <h1 class="text-xl font-bold text-red-900">Lorem ipsum</h1>
+        <div class="flex justify-center items-center h-screen">
 
-            <h3 class="py-8">Hi</h3>
+            <div id="main" class="relative">
+                <div>
+                    <div class="relative bg-cover bg-center bg-no-repeat py-8"
+                        style="background-image: url(/assets/img/bg-hero.jpg)">
 
-            <div class="bg-black w-20 mx-auto mt-10 cursor-pointer rounded-3xl toggler dark:bg-slate-100">
-                <!-- <div class="bg-white w-10 h-10 scale-75 rounded-3xl transition-transform dark:bg-black"></div> -->
-                <i class="fa-solid fa-sun bg-slate-100" style="color: aqua;"></i>
-                <i class="fa-solid fa-moon dark:bg-black"></i>
+                        <!-- <div -->
+                        <!-- class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"> -->
+                        <!-- </div> -->
+
+                        <div class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
+                            <div class="flex flex-col items-center justify-center lg:flex-row">
+
+
+
+                                <div class="rounded-full border-8 border-primary shadow-xl">
+                                    <img src="https://fastly.picsum.photos/id/372/425/425.jpg?hmac=XAAc9yu-2gBHUp-NkVX9mRaQU7kTvn1wWWkqJynrtcI"
+                                        class="h-48 rounded-full sm:h-56" alt="author" />
+                                </div>
+                                <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+
+                                    <h1
+                                        class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
+                                        Mehdi Ghasemalipour
+                                    </h1>
+                                    <p class="text-center text-white ">
+                                        Inventor
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
+
         <div class="flex flex-col w-2/3 mx-auto mb-24 tracking-wide">
             <h2 class="my-3">Lorem ipsum</h2>
             <p class="my-3">Normally, both your asses would be dead as fucking fried chicken, but you happen to pull
@@ -72,6 +99,53 @@
                 class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-red-900 hover:bg-red-900 px-12 py-2">Go
                 to Top</a>
         </div>
+
+        <div class="flex flex-col w-2/3 mx-auto mb-24 tracking-wide">
+            <h2 class="my-3">Lorem ipsum</h2>
+            <p class="my-3">Normally, both your asses would be dead as fucking fried chicken, but you happen to pull
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo eaque mollitia aut, neque commodi id ad
+                architecto. Explicabo doloremque obcaecati ad incidunt rem quaerat eligendi commodi! Rerum temporibus at
+                mollitia?
+            </p>
+            <h2 class="my-3">Lorem ipsum</h2>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, tempora consequuntur
+                inventore, quis, qui nihil a provident quasi quidem ut atque quod nobis reiciendis libero fugit quo?
+                Deleniti, optio!
+            </p>
+            <h2 class="my-3">Lorem ipsum</h2>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officia quibusdam magnam
+                sequi ex rerum perspiciatis totam corporis amet, consequuntur, ad dolores quam tenetur sit. Sunt enim
+                dignissimos dolorum totam!
+            </p>
+            <div class="w-full sm:w-2/3 h-px bg-grey-light mx-auto my-12"></div>
+            <a href="#top" id="bottom"
+                class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-red-900 hover:bg-red-900 px-12 py-2">Go
+                to Top</a>
+        </div>
+
+        <div class="flex flex-col w-2/3 mx-auto mb-24 tracking-wide">
+            <h2 class="my-3">Lorem ipsum</h2>
+            <p class="my-3">Normally, both your asses would be dead as fucking fried chicken, but you happen to pull
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo eaque mollitia aut, neque commodi id ad
+                architecto. Explicabo doloremque obcaecati ad incidunt rem quaerat eligendi commodi! Rerum temporibus at
+                mollitia?
+            </p>
+            <h2 class="my-3">Lorem ipsum</h2>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, tempora consequuntur
+                inventore, quis, qui nihil a provident quasi quidem ut atque quod nobis reiciendis libero fugit quo?
+                Deleniti, optio!
+            </p>
+            <h2 class="my-3">Lorem ipsum</h2>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat officia quibusdam magnam
+                sequi ex rerum perspiciatis totam corporis amet, consequuntur, ad dolores quam tenetur sit. Sunt enim
+                dignissimos dolorum totam!
+            </p>
+            <div class="w-full sm:w-2/3 h-px bg-grey-light mx-auto my-12"></div>
+            <a href="#top" id="bottom"
+                class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-red-900 hover:bg-red-900 px-12 py-2">Go
+                to Top</a>
+        </div>
+
     </main>
     <script src="../app.js"></script>
 </body>
